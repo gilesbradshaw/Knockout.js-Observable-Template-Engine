@@ -92,7 +92,7 @@ define(['knockout', 'jquery'], function (ko, jQuery) {
                 return engine.renderTemplateSource(templateSource, bindingContext, options);
             else {
                 var doc = new window.DOMParser().parseFromString(
-                   '<svg xmlns="http://www.w3.org/2000/svg"><g>' + templateSource.text() + '</g></svg>',
+                   '<svg xmlns="http://www.w3.org/2000/svg">' + templateSource.text() + '</svg>',
                    'application/xml');
                 doc = document.importNode(doc.documentElement, true);
                 var ret = [];
