@@ -13,7 +13,7 @@ It currently supports both native and jquery templates.
 It also allows your templates to be SVG elements (use the svg option)
 
 ## Prerequisites
-Knockout.js 2.0 or later (you will need to look at the tagged 1.0 version if you need support for older Knockout.js)
+Knockout.js 2.0 or later
 jQuery 1.5 or later
 jquery-tmpl only if you are using jquery templates
 
