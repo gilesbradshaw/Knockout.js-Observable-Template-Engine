@@ -5,10 +5,10 @@
 // Version 0.0.1
 // unashamably based on https://github.com/ifandelse/Knockout.js-External-Template-Engine/blob/master/src/ExternalTemplateSource.js
 
-// This is the 'standard js lib' style version of the KO Observable Template Engine
-// If you need the AMD module version, please go to https://github.com/gilesbradshaw/Knockout.js-Observable-Template-Engine
+// This is the AMD style version of the KO Observable Template Engine
+// If you need the 'standard js lib' module version, please go to https://github.com/gilesbradshaw/Knockout.js-Observable-Template-Engine
 
-(function ( global, ko, jQuery ) {
+define(['knockout', 'jquery'], function (ko, jQuery) {
 
     var ObservableTemplateSource = function (templateId, options) {
         var self = this, origAfterRender;
@@ -120,4 +120,4 @@
         ko.setTemplateEngine(new KoObservableTemplateEngine());
     }
 
-})( window, ko, jQuery );
+});
