@@ -11,6 +11,7 @@ The Knockout.js Observable Template Engine extends Knockout.js to allow you to l
 It currently supports both native and jquery templates.
 
 It also allows your templates to be SVG elements (use the svg option)
+Normal named templates still work and as an added bonus if you use the svg option with them then they produce SVG.
 
 ## Prerequisites
 Knockout.js 2.0 or later
@@ -33,6 +34,7 @@ If your template contains SVG elements ie elements below the root svg element it
 
 If you want the template to be a normal named template - ie the name indicates the id of an element in your DOM then miss out the template option.
     <div data-bind="template: { name: 'aname'}"></div>
+
 
 ## For example..
 [click here](http://jsbin.com/ixaziz/1/edit)

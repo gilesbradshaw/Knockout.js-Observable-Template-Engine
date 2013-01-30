@@ -69,9 +69,12 @@ define(['knockout', 'jquery'], function (ko, jQuery) {
             // Named template
             if (typeof template == "string") {
                 
-                var elem = document.getElementById(template) && !options.template;
-                if (elem)
-                    return new ko.templateSources.domElement(elem);
+                if(!options.template)
+                {
+                   var elem = document.getElementById(template);
+              
+                   return new ko.templateSources.domElement(elem);
+                }
                 else {
                     //no cache means don't cache the template by the name
                     if (!template.cacheId) {
