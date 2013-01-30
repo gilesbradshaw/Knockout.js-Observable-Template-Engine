@@ -37,6 +37,7 @@ If you want the template to be a normal named template - ie the name indicates t
 
 
 ## For example..
-[click here](http://jsbin.com/ixaziz/1/edit)
+[click here](http://jsbin.com/ixaziz/15/edit)
 
+ps I've not tested the jquery templates nor the after render - just left them in from original code
 
