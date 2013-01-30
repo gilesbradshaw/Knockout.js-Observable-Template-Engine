@@ -34,4 +34,7 @@ If your template contains SVG elements ie elements below the root svg element it
 If you want the template to be a normal named template - ie the name indicates the id of an element in your DOM then miss out the template option.
     <div data-bind="template: { name: 'aname'}"></div>
 
+## For example..
+[click here](http://jsbin.com/ixaziz/1/edit)
+
 
