@@ -1,13 +1,13 @@
 # Knockout.js-Observable-Template-Engine
 
-## Unashamedly based on
-[ifandelse / Knockout.js-External-Template-Engine] (https://github.com/ifandelse/Knockout.js-External-Template-Engine)
-
 Custom Template Engine and Template Source for Knockout.js that loads templates from observables.
 Supports native and jQuery templates.
 
+based on..
+[ifandelse / Knockout.js-External-Template-Engine] (https://github.com/ifandelse/Knockout.js-External-Template-Engine)
+
 ## What Is It
-The Knockout.js Observable Template Engine extends Knockout.js to allow you to load templates from obsrvables in the view model. 
+The Knockout.js Observable Template Engine extends Knockout.js to allow you to load templates from observables in the view model. 
 It currently supports both native and jquery templates.
 
 It also allows your templates to be SVG elements (use the svg option)
