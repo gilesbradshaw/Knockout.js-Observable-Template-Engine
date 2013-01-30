@@ -1,5 +1,8 @@
 # Knockout.js-Observable-Template-Engine
 
+## Unashamedly based on
+[ifandelse / Knockout.js-External-Template-Engine] (https://github.com/ifandelse/Knockout.js-External-Template-Engine)
+
 Custom Template Engine and Template Source for Knockout.js that loads templates from observables.
 Supports native and jQuery templates.
 
@@ -31,7 +34,4 @@ If your template contains SVG elements ie elements below the root svg element it
 If you want the template to be a normal named template - ie the name indicates the id of an element in your DOM then miss out the template option.
     <div data-bind="template: { name: 'aname'}"></div>
 
-
-## Thanks to..
-Derived from the [ifandelse / Knockout.js-External-Template-Engine] (https://github.com/ifandelse/Knockout.js-External-Template-Engine)
 
